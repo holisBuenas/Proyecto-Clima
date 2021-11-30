@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElClima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Page">
+        <header class="header">
+            <img src="" alt="" class="img-header">
+        </header> 
+        <div class="container-clima">
+            <div class="circle">
+                <h1 >Clima</h1>
+                <!-- icon -->
+                <img id="iconoClouds" alt="">
+                <h3>Temperatura: <span id="temp"></span></h3>
+                <p >Humedad: <span id="humidity"></span></p>
+                <p>Ciudad: <span id="ciudad"></span></p>
+                <p >Pais: <span id="country"></span></p>
+                
+            </div>
+            <form class="form" id="form">
+                <input type="text" name="ciudad" id="ciudad-valor" placeholder="ciudad">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

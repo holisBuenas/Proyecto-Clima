@@ -1,0 +1,48 @@
+html {
+  font-size: 65.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  background: whitesmoke;
+}
+
+.page {
+  width: 100%;
+}
+.container-clima {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  font-size: 1.6rem;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: rgba(137, 43, 226, 0.267);
+
+  margin-bottom: 40px;
+}
+
+.form {
+  background: wheat;
+  height: 50px;
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
